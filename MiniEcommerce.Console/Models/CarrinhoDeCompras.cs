@@ -31,4 +31,9 @@ public class CarrinhoDeCompras
     {
         _itens.RemoveAll(item => item.Produto == produto);
     }
+
+    public void Limpar()
+    {
+        _itens.Clear();
+    }
 }
